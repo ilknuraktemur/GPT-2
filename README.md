@@ -10,5 +10,5 @@ The goal of this project is to fine-tune the GPT-2 model on the works of Shakesp
 - After installing the required dependencies specified in the requirement.txt file, the trained model in the drive is accessed using wget, after downloading the model, there are the required commands to run the FastAPI web server in start.sh script.
 - After all steps you can generate text according to the prompt you want using the curl tool.(these commands are also in start.sh )
 
-Note:
-After running the bash start.sh command, the application will run on localhost. So maybe you need to run the curl command(in the start.sh) separately.
+#### Note:
+After running the bash start.sh command, the application will run on localhost. Maybe you need to run the curl command(in the start.sh) separately.
