@@ -5,7 +5,7 @@ from transformers import pipeline, set_seed
 from transformers import GPT2LMHeadModel, GPT2Tokenizer
 
 #output_path = r"C:\Users\ilknur\Desktop\GPT-2\model"
-output_path = r"..\GPT-2\model"  # The directory where the trained model was saved
+output_path = r"../GPT-2/model"  # The directory where the trained model was saved
 tokenizer = GPT2Tokenizer.from_pretrained(output_path)
 model = GPT2LMHeadModel.from_pretrained(output_path)
 
