@@ -3,7 +3,7 @@
 The goal of this project is to fine-tune the GPT-2 model on the works of Shakespeare and deploy this fine tuned model on Linux using Fast API. 
 ### Steps
 
-- pre-trained GPT-2 model was fine tuned with input from Shakespeare works. You can access this input from the data folder in the repo.
+- Pre-trained GPT-2 model was fine tuned with input from Shakespeare works. You can access this input from the data folder in the repo.
 - Then this trained model was saved in Google Drive for later use.
 - In the next step, a python application was created for this model using the FastAPI framework. You can access it from the FastAPI.py file.
 - Then a bash script was created to run this application on the Linux. This script is the file named start.sh in the repo.
