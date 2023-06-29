@@ -1,5 +1,5 @@
 ## Text Generation GPT-2
-### Project Description:
+### Project Description
 The goal of this project is to fine-tune the GPT-2 model on the works of Shakespeare and deploy this fine tuned model on Linux using Fast API. 
 
 - When creating this repo, a pre-trained GPT-2 model was first fine tuned with input from Shakespeare works. You can access this input from the data folder in the repo.
